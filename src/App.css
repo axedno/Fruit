@@ -1,38 +1,37 @@
-.App {
+.fruit {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid darkblue;
+  padding: 20px;
+  font-size: 20px;
+}
+.fruit__descr {
+  font-size: 30px;
   text-align: center;
+  color: sandybrown;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fruit__block {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.fruit__image {
+  width: 70%;
+  height: 70%;
+}
+.fruit__info {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.fruit__btn {
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: bisque;
+  border: none;
+}
+.fruit__btn_text {
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
